@@ -1,7 +1,7 @@
-.header h1 {
-    color: orangered;
-    padding-top: 34px;
-    font-size: 40px;
+.container h1 {
+    color: #d64339;
+    padding-top: 18px;
+    font-size: 39px;
 }
 
 .header_background {
@@ -10,31 +10,67 @@
 
 }
 
-header p,
-header h3 {
+.container h3 {
 
-    color: aliceblue;
-    padding-top: 8px;
+    color: #db5439;
+    padding-top: 5px;
+    padding-left: -3px;
     padding-bottom: 7px;
     margin-bottom: auto;
     margin-top: auto;
-    line-height: 21px;
-    font-size: 15px;
+    line-height: 20px;
+    font-size: 19px;
+}
+.header h3{
+    color: white;
+
+}
+
+.header p {
+    color: aliceblue;
+    padding-top: 9px;
+    padding-left: -1px;
+    padding-left: 0px;
+    padding-bottom: 21px;
+    margin-bottom: auto;
+    margin-top: auto;
+    line-height: 23px;
+    font-size: 14.7px;
+    font-style: italic;
+    word-spacing: 0px;
 }
 
 
 .background2 {
     background-color: #d64339;
+
 }
 
 h2,
 h3 {
     color: #d64339;
+    padding-top: 37px;
+    font-size: 19px;
+    padding-bottom: 23px;
+
+}
+
+.links {
+    /* padding-left: 338px; */
+    text-align: center;
+    /* padding-bottom: 15px; */
+    line-height: 48px;
+    color: white;
 }
 
 .techskills h2 {
     color: #d64339;
 
+}
+
+.tech_skills p {
+    line-height: 26px;
+    font-size: 16px;
 }
 
 .professional_exp h2,
@@ -45,6 +81,11 @@ h3 {
 span {
     background-color: #0f1f26;
     color: #f3fafb;
+    /* display: inline-block; */
+    font-size: 13px;
+    padding: 8px 20px;
+    border-radius: 5px;
+    line-height: 44px;
 }
 
 .container,
@@ -52,4 +93,9 @@ span {
     width: 788px;
     margin-left: auto;
     margin-right: auto;
+    padding-right: 17px;
+}
+
+body {
+    font-family: 'Hind Siliguri', sans-serif;
 }
