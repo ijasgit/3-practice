@@ -76,7 +76,6 @@ h3 {
 span {
     background-color: #0f1f26;
     color: #f3fafb;
-    /* display: inline-block; */
     font-size: 13px;
     padding: 8px 20px;
     border-radius: 5px;
@@ -100,7 +99,6 @@ a {
     padding: 5px;
     padding-top: 11px;
     padding-bottom: 11px;
-    /* word-spacing: 7px; */
     text-decoration: none;
 }
 
@@ -116,9 +114,8 @@ h2 {
 .red-box {
     height: 47px;
     width: 33px;
-    /* display: inline-block; */
     position: absolute;
-    background-color: #db5439;
+    background-color: #d64339;
     top: -2px;
     left: -44px;
 }
